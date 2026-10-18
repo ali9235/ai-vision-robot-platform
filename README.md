@@ -4,7 +4,16 @@
 
 **Exploring the boundary between embedded image capture, computer vision, and mobile control.**
 
-<p align="center"><img src="media/robot-closeup.jpg" alt="Real camera-equipped wheeled robot with display, wiring, and battery holders" width="760"></p>
+<p align="center"><img src="media/robot-hardware-anatomy.png" alt="Original robot photograph on a dark background with seven numbered callouts explaining camera, TFT, controller, batteries, drivetrain, wiring, and cable principles" width="1000"></p>
+
+The annotated plate explains the working principles of visible components. It uses the source photograph with a manually defined background mask and vector annotations; hardware was not regenerated. Read the [accessible component explanations](docs/HARDWARE_ANATOMY.md).
+
+<details>
+<summary>View the unedited source photograph</summary>
+
+<p align="center"><img src="media/robot-closeup.jpg" alt="Unedited original photograph of the camera-equipped robot in its original setting" width="760"></p>
+
+</details>
 
 This is a separate wheeled robotics project. I report using an ESP32 camera, a second ESP32 for motor control, Wi-Fi communication, and computer-based AI processing. The supplied photographs show a physical camera-equipped platform and a computer interface displaying a camera image and directional controls. They do not establish the exact processing algorithm or verify closed-loop operation.
 

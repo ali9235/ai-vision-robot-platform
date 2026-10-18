@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="2440" viewBox="0 0 1600 2440">
+  <defs>
+    <clipPath id="prototypeOutline"><path d="M0 452 L55 449 L113 462 L173 484 L217 518 L284 533 L280 380 L309 380 L332 511 L392 480 L465 426 L547 409 L617 421 L682 457 L747 482 L790 523 L836 558 L865 625 L887 663 L880 738 L850 797 L879 861 L883 1008 L857 1093 L814 1156 L756 1216 L691 1254 L610 1278 L374 1280 L275 1255 L192 1216 L143 1191 L83 1136 L42 1088 L0 1095 Z"/></clipPath>
+  </defs>
+  <rect width="1600" height="2440" fill="#090d11"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="800" y="82" text-anchor="middle" fill="#b5e69c" font-size="40" font-weight="700" letter-spacing="12">VOLTRA</text>
+    <text x="800" y="160" text-anchor="middle" fill="#f0f4f6" font-size="62" font-weight="700">AI VISION ROBOT PLATFORM</text>
+    <text x="800" y="216" text-anchor="middle" fill="#9aa9b5" font-size="30">HARDWARE ANATOMY / HOW THE COMPONENTS WORK</text>
+    <g transform="translate(230 285) scale(1.26) translate(0 -380)">
+      <image width="903" height="1280" href="../media/robot-closeup.jpg" clip-path="url(#prototypeOutline)"/>
+    </g>
+    <g fill="none" stroke="#b5e69c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M105 539 L183 539 L287 581"/>
+      <path d="M105 896 L194 896 L416 928"/>
+      <path d="M1495 870 L1360 870 L820 805"/>
+      <path d="M1495 492 L1372 492 L1024 518"/>
+      <path d="M1495 1162 L1370 1162 L1162 1104"/>
+      <path d="M105 1242 L203 1242 L658 1305"/>
+      <path d="M1495 1368 L1335 1368 L912 1287"/>
+    </g>
+    <g fill="#b5e69c">
+      <circle cx="287" cy="581" r="7"/><circle cx="416" cy="928" r="7"/>
+      <circle cx="820" cy="805" r="7"/><circle cx="1024" cy="518" r="7"/>
+      <circle cx="1162" cy="1104" r="7"/><circle cx="658" cy="1305" r="7"/>
+      <circle cx="912" cy="1287" r="7"/>
+    </g>
+    <g fill="#10191c" stroke="#b5e69c" stroke-width="3">
+      <circle cx="105" cy="539" r="32"/><circle cx="105" cy="896" r="32"/>
+      <circle cx="1495" cy="870" r="32"/><circle cx="1495" cy="492" r="32"/>
+      <circle cx="1495" cy="1162" r="32"/><circle cx="105" cy="1242" r="32"/>
+      <circle cx="1495" cy="1368" r="32"/>
+    </g>
+    <g text-anchor="middle" fill="#d8efc9" font-size="38" font-weight="700">
+      <text x="105" y="552">1</text><text x="105" y="909">2</text>
+      <text x="1495" y="883">3</text><text x="1495" y="505">4</text>
+      <text x="1495" y="1175">5</text><text x="105" y="1255">6</text>
+      <text x="1495" y="1381">7</text>
+    </g>
+    <line x1="80" y1="1465" x2="1520" y2="1465" stroke="#2c363e"/>
+    <g font-size="38" fill="#c1cbd2">
+      <g transform="translate(85 1535)">
+        <text fill="#eaf0f3" font-weight="700">01 / CAMERA MODULE</text>
+        <text y="58">The lens focuses light onto a sensor,</text>
+        <text y="105">which converts the scene into</text>
+        <text y="152">electronic image frames.</text>
+      </g>
+      <g transform="translate(850 1535)">
+        <text fill="#eaf0f3" font-weight="700">02 / TFT DISPLAY</text>
+        <text y="58">A controller sends pixel data to the</text>
+        <text y="105">display to form text or graphics.</text>
+        <text y="152">No screen output is visible here.</text>
+      </g>
+      <g transform="translate(85 1765)">
+        <text fill="#eaf0f3" font-weight="700">03 / CONTROLLER BOARD</text>
+        <text y="58">Runs firmware and exchanges signals</text>
+        <text y="105">with connected modules. Its model</text>
+        <text y="152">and pin mapping are unconfirmed.</text>
+      </g>
+      <g transform="translate(850 1765)">
+        <text fill="#eaf0f3" font-weight="700">04 / BATTERY HOLDERS</text>
+        <text y="58">Cells supply electrical energy to</text>
+        <text y="105">the circuit. Operating voltage and</text>
+        <text y="152">regulation remain undocumented.</text>
+      </g>
+      <g transform="translate(85 1995)">
+        <text fill="#eaf0f3" font-weight="700">05 / WHEEL AND GEARBOX</text>
+        <text y="58">A geared motor converts electrical</text>
+        <text y="105">energy into wheel rotation. Motor</text>
+        <text y="152">driver details are unconfirmed.</text>
+      </g>
+      <g transform="translate(850 1995)">
+        <text fill="#eaf0f3" font-weight="700">06 / WIRING AND CHASSIS</text>
+        <text y="58">Wires carry power and signals.</text>
+        <text y="105">The deck mechanically supports</text>
+        <text y="152">the assembled components.</text>
+      </g>
+      <g transform="translate(85 2225)">
+        <text fill="#eaf0f3" font-weight="700">07 / CABLE CONNECTION</text>
+        <text y="58">A cable link is visible; its power</text>
+        <text y="105">or data role is not verified.</text>
+      </g>
+      <g transform="translate(850 2225)" fill="#96a5b0" font-size="29">
+        <text>Original photo pixels. Background masked.</text>
+        <text y="44">Numbers describe working principles,</text>
+        <text y="88">not verified wiring or runtime behavior.</text>
+        <text y="132">Unedited source retained in the repository.</text>
+      </g>
+    </g>
+  </g>
+</svg>

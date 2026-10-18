@@ -8,6 +8,12 @@
 
 V3 is a builder report, not a verified runtime result. V1/V2 are static photographs. The camera image visible on the laptop does not establish streaming rate, AI inference, or motor response.
 
+## Annotated presentation
+
+`media/robot-hardware-anatomy.png` is an explanatory layout made from V1, using a manual background mask, numbered markers, and English component principles. It is not additional hardware or test evidence. The mask removes exterior room context, preserves the source view and photographed assembly, and does not reconstruct parts outside the original frame. Background visible within the assembly may remain. The original V1 file is unchanged and available in the README's expandable source section.
+
+The editable layout is `docs/hardware-plate.svg`; its image reference points to V1. The controller identity, circuit pin mapping, cable purpose, regulation, and runtime behavior remain unverified. Annotation numbers indicate component regions, not exact electrical connection points. No illustrated wire is a verified circuit diagram.
+
 ## Candidate code mismatch
 
 The reviewed `robot_project.zip` describes an ESP8266 motor controller, XIAO camera, AI-Thinker pan/tilt camera, MQTT, and a Python face-recognition server. This differs from the stated two-ESP32 arrangement. Its camera tracking code is not suitable for inclusion here while a launcher is present, and its enrollment/training material is excluded.
